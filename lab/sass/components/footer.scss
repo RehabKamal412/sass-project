@@ -1,0 +1,43 @@
+.footer
+{
+    background-color: $yellow;
+    padding-bottom: 2rem;
+    font-size: 0.8rem;
+
+    &__container
+    {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+
+    }
+    
+    
+    
+    &__content
+    {
+        padding-top: 35px;
+       
+    }
+
+    li, a
+    {
+        list-style: none;
+        text-decoration:none;
+        color: black;
+    }
+
+    &__links{
+        padding-left: 10px;
+        padding-top: 10px
+    }
+
+    &__copy
+    {
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+}
+

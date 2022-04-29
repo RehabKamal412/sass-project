@@ -1,0 +1,44 @@
+ //! about me 
+// .about-conatiner{
+//     background-color: $yellow;
+// }
+.about-me {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 0 auto;
+    height: 75vh;
+    width: 100%;
+    max-width: 1200px;
+    padding-right: 24px;
+    padding-left: 43px;
+
+
+    &__image--left {
+        float:left;
+        width:40%;
+        
+        img{
+            width:97%
+        }
+}
+
+    &__info{
+        line-height: 1.2;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        
+
+        p, h2{
+            padding-left: 119px;
+            padding-top: 18px;
+
+        }
+    }
+
+}
+
+

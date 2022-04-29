@@ -1,0 +1,41 @@
+.hero
+{
+    
+
+    &__container--page2
+    {
+        height: 50vh;
+        display: flex;
+        justify-content:center;
+        text-align: center;
+
+    }
+
+    &__text{
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        // line-height:2.5rem;
+        width: 100%;
+
+        h1{
+            color: $yellow;
+        }
+
+        p{
+            padding-top: 36px;
+        }
+        
+        button{
+            width: 11%;
+            margin-left: 45%;
+    
+        }
+    }
+    
+
+
+
+    
+}

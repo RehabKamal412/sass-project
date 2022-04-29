@@ -1,0 +1,17 @@
+
+@mixin  align-center {
+    display: flex;
+    align-items: center;
+  } 
+    
+
+  @mixin card_border
+  {
+    border: 6px solid #fff;
+    background-color: $light;
+  }
+
+  @mixin flex {
+    display: flex;
+    justify-content: center;
+  }

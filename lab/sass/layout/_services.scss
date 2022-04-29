@@ -1,0 +1,30 @@
+.service__container
+{
+    background-color: $light;
+    height: 60vh;
+}
+
+.services
+{
+    padding-top: 50px;
+    
+&__header
+    {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    &__card
+    {
+        // background-color: $light;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 40px;
+        
+       
+     
+    }
+
+}

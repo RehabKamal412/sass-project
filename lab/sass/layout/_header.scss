@@ -1,0 +1,27 @@
+
+
+.navbar {
+    background: $light;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 9.9rem ;
+    z-index: 10;
+    position: relative;
+  
+    &__logo {
+      color: $dark;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 2rem;
+      margin-left: 24px;
+      @include align-center;
+    }
+  
+    &__bars {
+      opacity: 0;
+    }
+  
+
+  }
+  

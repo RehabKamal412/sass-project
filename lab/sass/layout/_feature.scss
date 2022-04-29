@@ -1,0 +1,33 @@
+.feature {
+
+    background-color: $lightGrayishBlue;
+    // text-align: center;
+    @include flex;
+
+  h2{
+    padding-left:66px;
+  }
+
+   &__intro{
+
+    p{
+      padding-top: 20px;
+    }
+  }
+
+    &__content{
+      padding: 82px;
+    }
+
+    &__cards{
+  
+      @include flex;
+      flex-direction: row;
+      width: 100%;
+      padding-left: 73px;
+      
+      
+    }
+ 
+}
+
